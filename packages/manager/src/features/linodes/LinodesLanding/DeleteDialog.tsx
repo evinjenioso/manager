@@ -65,7 +65,10 @@ const DeleteLinodeDialog: React.FC<CombinedProps> = props => {
     >
       <Typography>
         Are you sure you want to delete your Linode? This will result in
-        permanent data loss.
+        permanent data loss. 
+        
+        Note: Uninvoiced balance for this service will appear on your
+        next invoice after deletion.
       </Typography>
     </Dialog>
   );
